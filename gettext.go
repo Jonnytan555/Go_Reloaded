@@ -6,7 +6,7 @@ import (
 )
 
 func GetText(file_input string) string {
-	file, err := os.Open(file_input)
+	file, err := os.Open(file_input + ".txt")
 	if err != nil {
 		fmt.Printf("The mistake is: %v\n", err.Error())
 	}
