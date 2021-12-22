@@ -5,7 +5,7 @@ The objective of this project is to make a simple text completion/editing/auto-c
 
 **Introduction**
 
-The tool you are about to build will receive as arguments the name of a file containing a text that needs some modifications (the input) and the name of the file the modified text should be placed in (the output).
+The tool will receive as arguments the name of a file containing a text that needs some modifications (the input) and the name of the file the modified text should be placed in (the output).
 
 **List of possible modifications that the program should execute**
 
@@ -29,6 +29,7 @@ The tool you are about to build will receive as arguments the name of a file con
 
   - Every instance of a should be turned into an if the next word begins with a vowel or an h. (Ex: "There it was. A amazing rock!" -> "There it was. An amazing rock!").
 
+# Usage 
 
 https://user-images.githubusercontent.com/60893095/146987591-3bee7f9f-7fa6-4964-899a-b96d84a13120.mp4
 
